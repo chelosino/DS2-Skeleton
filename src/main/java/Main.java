@@ -78,11 +78,14 @@ public class Main implements DS2Interface {
 		else{
 			int h = maxHorizontal(input); //Complexity O(n^2) - Explained below
 			int v = maxVertical(input); //Complexity O(n^2)  - Explained below
-			int d = maxDiagonal(input); //Complexity O(x) - Explained below
-			int c = maxAntiDiagonal(input); //Complexity O(x) - Explained below
+			int d = maxDiagonal(input); //Complexity O(n^2)  - Explained below
+			int c = maxAntiDiagonal(input); //Complexity O(n^2)  - Explained below
 			return h+v+d+c;
 		}
 	}
+    
+    //The algorithm use 4 different algorithms, each one with a complexity of O(n^2). 
+    //We can conclude that the complexity of the algorithm is O(n^2) (Because O(n^2)=O(4n^2))
     
     /*The function below gives the maximum value between all the maxSubArray of each line of the matrix, using a dynamic programming focus*/
     
