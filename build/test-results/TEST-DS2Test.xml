@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DS2Test" tests="10" skipped="0" failures="1" errors="0" timestamp="2016-10-14T15:37:19" hostname="MBP-de-Marcel.iptv.microsoft.com" time="2.858">
+<testsuite name="DS2Test" tests="10" skipped="0" failures="1" errors="0" timestamp="2016-10-17T00:49:41" hostname="MBP-de-Marcel.iptv.microsoft.com" time="3.024">
   <properties/>
-  <testcase name="testBasicRecursiveRodNonIncreasing" classname="DS2Test" time="0.025"/>
+  <testcase name="testBasicRecursiveRodNonIncreasing" classname="DS2Test" time="0.031"/>
   <testcase name="testSimpleDynamicRod" classname="DS2Test" time="0.001"/>
   <testcase name="testSimpleMatrix" classname="DS2Test" time="0.001"/>
   <testcase name="testSimpleRecursiveRod" classname="DS2Test" time="0.001"/>
   <testcase name="testBasicDynamicRodIncreasing" classname="DS2Test" time="0.005"/>
-  <testcase name="testEmptyMatrix" classname="DS2Test" time="0.0"/>
-  <testcase name="testNegativeMatrix" classname="DS2Test" time="0.0"/>
-  <testcase name="testBasicDynamicRodNonIncreasing" classname="DS2Test" time="0.004"/>
-  <testcase name="testLargeMatrix" classname="DS2Test" time="2.803">
+  <testcase name="testEmptyMatrix" classname="DS2Test" time="0.001"/>
+  <testcase name="testNegativeMatrix" classname="DS2Test" time="0.001"/>
+  <testcase name="testBasicDynamicRodNonIncreasing" classname="DS2Test" time="0.006"/>
+  <testcase name="testLargeMatrix" classname="DS2Test" time="2.971">
     <failure message="java.lang.AssertionError: expected:&lt;458993157&gt; but was:&lt;458690349&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;458993157&gt; but was:&lt;458690349&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
@@ -30,7 +30,7 @@
 	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
 </failure>
   </testcase>
-  <testcase name="testBasicRecursiveRodIncreasing" classname="DS2Test" time="0.014"/>
+  <testcase name="testBasicRecursiveRodIncreasing" classname="DS2Test" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
